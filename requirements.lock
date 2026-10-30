@@ -1,0 +1,17 @@
+cffi==2.1.1
+cryptography==50.0.2
+elementpath==5.1.4
+html5rdf==1.2.1
+lxml==6.1.3
+owlrl==7.6.2
+packaging==26.3
+prettytable==3.18.0
+pycparser==3.12
+pyparsing==3.3.3
+pyshacl==0.40.2
+rdflib==7.6.0
+sdcgovernance==4.3.1
+sdcreceipt==4.3.4
+sdcvalidator==4.6.1
+wcwidth==0.9.4
+xmlschema==4.3.2

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>https://axius-sdc.com/library/business/credit-note-governed-record</cbc:CustomizationID>
+  <cbc:ProfileID>urn:axius-sdc:business-documents:profile:order-only:1</cbc:ProfileID>
+  <cbc:ID>HF-CN-2026-000041</cbc:ID>
+  <cbc:CopyIndicator>false</cbc:CopyIndicator>
+  <cbc:UUID>3bd5469f-8144-494e-5b03-20511dae48dc</cbc:UUID>
+  <cbc:IssueDate>2026-11-03</cbc:IssueDate>
+  <cbc:IssueTime>09:19:00</cbc:IssueTime>
+  <cbc:DueDate>2026-11-19</cbc:DueDate>
+  <cbc:TaxPointDate>2026-11-03</cbc:TaxPointDate>
+  <cbc:CreditNoteTypeCode listURI="https://axius-sdc.com/library/business/credit-note-type">Credit note related to goods or services</cbc:CreditNoteTypeCode>
+  <cbc:Note>Credits the deduction agreed on the receipt advice; the balance of the invoice is payable on its due date.</cbc:Note>
+  <cbc:DocumentCurrencyCode>USD</cbc:DocumentCurrencyCode>
+  <cbc:AccountingCost>Grocery 4120</cbc:AccountingCost>
+  <cbc:LineCountNumeric>1</cbc:LineCountNumeric>
+  <cbc:BuyerReference>KM-BUY-255</cbc:BuyerReference>
+  <cac:InvoicePeriod>
+    <cbc:StartDate>2026-10-19</cbc:StartDate>
+    <cbc:EndDate>2026-10-19</cbc:EndDate>
+  </cac:InvoicePeriod>
+  <cac:DiscrepancyResponse>
+    <cbc:ReferenceID>HF-INV-2026-000041</cbc:ReferenceID>
+    <cbc:ResponseCode>Deduction agreed</cbc:ResponseCode>
+    <cbc:Description>Deduction of 3 percent of invoice HF-INV-2026-000041 (1804.80 USD) agreed on receipt advice KM-RA-2026-000041: Accepted with exception: pallet identifier PL-394402 valid to 2026-10-18, received 2026-10-19.</cbc:Description>
+    <cbc:EffectiveDate>2026-10-19</cbc:EffectiveDate>
+  </cac:DiscrepancyResponse>
+  <cac:OrderReference>
+    <cbc:ID>KM-PO-2026-000041</cbc:ID>
+    <cbc:SalesOrderID>HF-SO-000041</cbc:SalesOrderID>
+    <cbc:UUID>283b2cc0-3b01-4856-b575-a3a51340566f</cbc:UUID>
+    <cbc:IssueDate>2026-10-07</cbc:IssueDate>
+    <cbc:OrderTypeCode listURI="https://axius-sdc.com/library/business/order-type">Standard order</cbc:OrderTypeCode>
+  </cac:OrderReference>
+  <cac:BillingReference>
+    <cac:InvoiceDocumentReference>
+      <cbc:ID>HF-INV-2026-000041</cbc:ID>
+      <cbc:IssueDate>2026-10-20</cbc:IssueDate>
+      <cbc:DocumentType>Other document</cbc:DocumentType>
+      <cbc:DocumentDescription>The invoice this credit note credits.</cbc:DocumentDescription>
+    </cac:InvoiceDocumentReference>
+  </cac:BillingReference>
+  <cac:DespatchDocumentReference>
+    <cbc:ID>HF-DA-2026-000041</cbc:ID>
+    <cbc:IssueDate>2026-10-18</cbc:IssueDate>
+    <cbc:DocumentType>Despatch advice</cbc:DocumentType>
+  </cac:DespatchDocumentReference>
+  <cac:ReceiptDocumentReference>
+    <cbc:ID>KM-RA-2026-000041</cbc:ID>
+    <cbc:IssueDate>2026-10-19</cbc:IssueDate>
+    <cbc:DocumentType>Receipt advice</cbc:DocumentType>
+    <cbc:DocumentDescription>The receipt advice this invoice settles against.</cbc:DocumentDescription>
+  </cac:ReceiptDocumentReference>
+  <cac:ContractDocumentReference>
+    <cbc:ID>KM-HF-SA-2025-01</cbc:ID>
+    <cbc:IssueDate>2025-11-14</cbc:IssueDate>
+    <cbc:DocumentType>Supply agreement</cbc:DocumentType>
+  </cac:ContractDocumentReference>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>KM-VEND-2291</cbc:CustomerAssignedAccountID>
+    <cac:Party>
+      <cbc:EndpointID>0000001000016</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="GLN" schemeAgencyID="9" schemeName="Global Location Number (GS1)">0000001000016</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Halvorsen Foods, Inc.</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:AddressTypeCode listURI="https://axius-sdc.com/library/default/address-use">work</cbc:AddressTypeCode>
+        <cbc:StreetName>400 Mill Street</cbc:StreetName>
+        <cbc:CityName>Duluth</cbc:CityName>
+        <cbc:PostalZone>55802</cbc:PostalZone>
+        <cbc:CountrySubentityCode>MN</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode>US</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Halvorsen Foods, Inc.</cbc:RegistrationName>
+        <cbc:CompanyID>MN-41-2207731</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Order desk</cbc:Name>
+        <cbc:Department>Customer service</cbc:Department>
+        <cbc:Telephone>+1 218 555 0140</cbc:Telephone>
+        <cbc:ElectronicMail>orders@halvorsenfoods.example</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cbc:SupplierAssignedAccountID>HF-CUST-00417</cbc:SupplierAssignedAccountID>
+    <cac:Party>
+      <cbc:EndpointID>0000002000015</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="GLN" schemeAgencyID="9" schemeName="Global Location Number (GS1)">0000002000015</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Kestrel Mercantile, Inc.</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:AddressTypeCode listURI="https://axius-sdc.com/library/default/address-use">work</cbc:AddressTypeCode>
+        <cbc:StreetName>1200 West Fulton Market</cbc:StreetName>
+        <cbc:AdditionalStreetName>Suite 400</cbc:AdditionalStreetName>
+        <cbc:CityName>Chicago</cbc:CityName>
+        <cbc:PostalZone>60607</cbc:PostalZone>
+        <cbc:CountrySubentityCode>IL</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode>US</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Kestrel Mercantile, Inc.</cbc:RegistrationName>
+        <cbc:CompanyID>IL-77-5590012</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Grocery buying office</cbc:Name>
+        <cbc:Department>Merchandising</cbc:Department>
+        <cbc:Telephone>+1 312 555 0188</cbc:Telephone>
+        <cbc:ElectronicMail>grocery.buying@kestrelmercantile.example</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:BuyerCustomerParty>
+    <cbc:SupplierAssignedAccountID>HF-CUST-00417</cbc:SupplierAssignedAccountID>
+    <cac:Party>
+      <cbc:EndpointID>0000002000015</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="GLN" schemeAgencyID="9" schemeName="Global Location Number (GS1)">0000002000015</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Kestrel Mercantile, Inc.</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:AddressTypeCode listURI="https://axius-sdc.com/library/default/address-use">work</cbc:AddressTypeCode>
+        <cbc:StreetName>1200 West Fulton Market</cbc:StreetName>
+        <cbc:AdditionalStreetName>Suite 400</cbc:AdditionalStreetName>
+        <cbc:CityName>Chicago</cbc:CityName>
+        <cbc:PostalZone>60607</cbc:PostalZone>
+        <cbc:CountrySubentityCode>IL</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode>US</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Kestrel Mercantile, Inc.</cbc:RegistrationName>
+        <cbc:CompanyID>IL-77-5590012</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Grocery buying office</cbc:Name>
+        <cbc:Department>Merchandising</cbc:Department>
+        <cbc:Telephone>+1 312 555 0188</cbc:Telephone>
+        <cbc:ElectronicMail>grocery.buying@kestrelmercantile.example</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:BuyerCustomerParty>
+  <cac:SellerSupplierParty>
+    <cbc:CustomerAssignedAccountID>KM-VEND-2291</cbc:CustomerAssignedAccountID>
+    <cac:Party>
+      <cbc:EndpointID>0000001000016</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="GLN" schemeAgencyID="9" schemeName="Global Location Number (GS1)">0000001000016</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Halvorsen Foods, Inc.</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:AddressTypeCode listURI="https://axius-sdc.com/library/default/address-use">work</cbc:AddressTypeCode>
+        <cbc:StreetName>400 Mill Street</cbc:StreetName>
+        <cbc:CityName>Duluth</cbc:CityName>
+        <cbc:PostalZone>55802</cbc:PostalZone>
+        <cbc:CountrySubentityCode>MN</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode>US</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Halvorsen Foods, Inc.</cbc:RegistrationName>
+        <cbc:CompanyID>MN-41-2207731</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:Name>Order desk</cbc:Name>
+        <cbc:Department>Customer service</cbc:Department>
+        <cbc:Telephone>+1 218 555 0140</cbc:Telephone>
+        <cbc:ElectronicMail>orders@halvorsenfoods.example</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:SellerSupplierParty>
+  <cac:Delivery>
+    <cbc:ID>KM-PO-2026-000041-D1</cbc:ID>
+    <cbc:LatestDeliveryDate>2026-10-22</cbc:LatestDeliveryDate>
+    <cac:DeliveryLocation>
+      <cbc:ID>0000002000022</cbc:ID>
+      <cbc:Name>Kestrel Mercantile DC 2 (Joliet)</cbc:Name>
+      <cac:Address>
+        <cbc:StreetName>2900 Channahon Road</cbc:StreetName>
+        <cbc:CityName>Joliet</cbc:CityName>
+        <cbc:PostalZone>60436</cbc:PostalZone>
+        <cbc:CountrySubentityCode>IL</cbc:CountrySubentityCode>
+        <cac:Country>
+          <cbc:IdentificationCode>US</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+    <cac:RequestedDeliveryPeriod>
+      <cbc:StartDate>2026-10-19</cbc:StartDate>
+      <cbc:EndDate>2026-10-22</cbc:EndDate>
+    </cac:RequestedDeliveryPeriod>
+  </cac:Delivery>
+  <cac:DeliveryTerms>
+    <cbc:ID schemeName="Incoterms 2020">DAP</cbc:ID>
+  </cac:DeliveryTerms>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode name="Automated clearing house credit">2</cbc:PaymentMeansCode>
+    <cbc:PaymentDueDate>2026-11-19</cbc:PaymentDueDate>
+  </cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:ID>NET30-2/10</cbc:ID>
+    <cbc:Note>Net 30 days; 2 percent settlement discount for payment within 10 days.</cbc:Note>
+    <cbc:SettlementDiscountPercent>2.0000</cbc:SettlementDiscountPercent>
+    <cbc:PaymentDueDate>2026-11-19</cbc:PaymentDueDate>
+    <cac:SettlementPeriod>
+      <cbc:StartDate>2026-10-20</cbc:StartDate>
+      <cbc:EndDate>2026-10-30</cbc:EndDate>
+    </cac:SettlementPeriod>
+  </cac:PaymentTerms>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="USD">54.14</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID>E</cbc:ID>
+        <cbc:Name>Exempt from tax</cbc:Name>
+        <cbc:Percent>0.0000</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID>IL-ROT</cbc:ID>
+          <cbc:Name>Illinois Retailers' Occupation Tax</cbc:Name>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="USD">54.14</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="USD">54.14</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="USD">54.14</cbc:TaxInclusiveAmount>
+    <cbc:PayableAmount currencyID="USD">54.14</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:CreditNoteLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:Note>3 percent of the invoice payable, 1804.80 USD, for the pallets accepted with an exception.</cbc:Note>
+    <cbc:CreditedQuantity unitCode="EA">1</cbc:CreditedQuantity>
+    <cbc:LineExtensionAmount currencyID="USD">54.14</cbc:LineExtensionAmount>
+    <cbc:TaxInclusiveLineExtensionAmount currencyID="USD">54.14</cbc:TaxInclusiveLineExtensionAmount>
+    <cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator>
+    <cac:DiscrepancyResponse>
+      <cbc:ReferenceID>KM-RA-2026-000041</cbc:ReferenceID>
+      <cbc:ResponseCode>Deduction agreed</cbc:ResponseCode>
+      <cbc:Description>Accepted with exception: pallet identifier PL-394402 valid to 2026-10-18, received 2026-10-19.</cbc:Description>
+      <cbc:EffectiveDate>2026-10-19</cbc:EffectiveDate>
+    </cac:DiscrepancyResponse>
+    <cac:ReceiptLineReference>
+      <cbc:LineID>1</cbc:LineID>
+      <cac:DocumentReference>
+        <cbc:ID>KM-RA-2026-000041</cbc:ID>
+        <cbc:DocumentType>Receipt advice</cbc:DocumentType>
+      </cac:DocumentReference>
+    </cac:ReceiptLineReference>
+    <cac:BillingReference>
+      <cac:InvoiceDocumentReference>
+        <cbc:ID>HF-INV-2026-000041</cbc:ID>
+        <cbc:DocumentType>Other document</cbc:DocumentType>
+        <cbc:DocumentDescription>The invoice this line credits.</cbc:DocumentDescription>
+      </cac:InvoiceDocumentReference>
+    </cac:BillingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="USD">54.14</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="USD">0.00</cbc:TaxAmount>
+        <cac:TaxCategory>
+          <cbc:ID>E</cbc:ID>
+          <cbc:Name>Exempt from tax</cbc:Name>
+          <cbc:Percent>0.0000</cbc:Percent>
+          <cac:TaxScheme>
+            <cbc:ID>IL-ROT</cbc:ID>
+            <cbc:Name>Illinois Retailers' Occupation Tax</cbc:Name>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>3 percent of invoice HF-INV-2026-000041, agreed on receipt advice KM-RA-2026-000041.</cbc:Description>
+      <cbc:Name>Deduction for pallets accepted with an exception</cbc:Name>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="USD">54.14</cbc:PriceAmount>
+      <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
+      <cbc:PriceTypeCode listURI="https://axius-sdc.com/library/business/price-type">Contract price</cbc:PriceTypeCode>
+    </cac:Price>
+  </cac:CreditNoteLine>
+</CreditNote>

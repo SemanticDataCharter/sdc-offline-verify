@@ -1,0 +1,16 @@
+bf0617166ac7d710621ee765809df6af53355a41c6c7f27e69593ba5f171790e  ./1-source-record/deduction-notice-KM-RA-2026-000041.json
+1a75b75532fa6ec1b613052f98a921c7850bbec856ec41fefe4f7aa886f1ff15  ./1-source-record/receipt-advice-KM-RA-2026-000041.gdr.xml
+4f26081a751fc5fb72b457ee5b99dce0a334d186ba7e711f445f9fa80aaf683b  ./1-source-record/receipt-advice-KM-RA-2026-000041.ubl.xml
+29f7948826d3380b5cacebc767c16a3012c7cadfd78ce79db690035adfd5ef2a  ./2-models/credit-note-dm-jkuyr38hydqaiwlq5vhp2rjr.xsd
+6a7deb9c980adb2c6d8c8165c95ae8824e3eca2135e5c1ba9e5865b0412e5db8  ./2-models/receipt-advice-dm-tog0v0p1zit1xwpxysxwpf3d.xsd
+6679112887f34d6062da45104af102069b02977d7780c8a818e15e3e9cd25c66  ./3-settlement/issuer-response-a50yy5wwmr4dl97s1je8eqlg.json
+fad88547601c98f2b809cb53d9142f29ebfc8fe9c2476f1badadd7c4b592e83b  ./3-settlement/settlement-receipt-a50yy5wwmr4dl97s1je8eqlg.json
+9f1ffb087677e6f1438ef7224ebae3e804d88cefc6137e6be9cf4d5d64a98b64  ./4-execution/credit-note-HF-CN-2026-000041.gdr.xml
+e924fbf420fd203b5f11ed5da8939628b436be20694650df79e005a9239e5225  ./4-execution/credit-note-HF-CN-2026-000041.ubl.xml
+a7f9220151a8be330554ebd5b1f19318e23a9793b451d8c5448ef1797da62b41  ./5-refused-contrast/deduction-notice-KM-RA-2026-000005.json
+4b0b166c0d8b47e738fd136c73d437c04f7b94592ea464367e38949782867c23  ./5-refused-contrast/issuer-response-DENY-bcwiqmil3bmwlgirxyrfuzt0.json
+3777926a6c7a03975e9a7491e82c79b404997f9a80932d81494dc5db34763e6d  ./5-refused-contrast/receipt-advice-KM-RA-2026-000005.gdr.xml
+45f148d7d64b496aa40f0091d75ccf7c413408e14a37848c6dd6abe0f80d374d  ./5-refused-contrast/settlement-receipt-DENY-bcwiqmil3bmwlgirxyrfuzt0.json
+f41b618892d6f918ec6812010635b476d21e31a02c8f66dadd8b6bb84efef1b8  ./keys/halvorsen-foods-vsl-key.json
+3ebe79f504c12c44f6dbabc98d654b5c43e14b7eeb1e1ad46a276f00728012ab  ./keys/kestrel-mercantile-vsl-key.json
+1dd9015c3e7b0fcd144c6e1e5cfe27a871cf9c929c1b30c6b7d694c04d991e3d  ./keys/sdcstudio-signing-keys.json
