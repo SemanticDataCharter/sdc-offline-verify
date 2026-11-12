@@ -41,7 +41,8 @@ On Windows run it in WSL or Git Bash. It takes about a minute and checks:
 1. The Settlement Receipt names the exact bytes of the source record and of its model.
 2. The Receipt's issuer signature and both parties' releases verify.
 3. A DENY Receipt over a refused transition is signed and attested but never settles (that failure is expected).
-4. Every Governed Data Record validates against its published model.
+4. Every Governed Data Record validates against its published model, with the SDC4 reference model resolved from
+   the local copy through `catalog.xml`, so this step needs no network either.
 5. The credit note cites the Settlement Receipt's URN.
 6. Every file matches `MANIFEST.sha256`.
 
@@ -49,6 +50,19 @@ The specimen is the deduction case from [HalvorsenDemo](https://github.com/Seman
 fictitious parties (Kestrel Mercantile, Halvorsen Foods), a 54.14 USD credit, and a refused contrast. The demonstration
 holds all three signing keys; only public key documents are in `specimen/keys/`. In a real settlement each party
 generates and publishes its own.
+
+## The reference model, kept locally
+
+The specimen's models include the SDC4 reference model by its published URL,
+`https://semanticdatacharter.com/ns/sdc4/sdc4.xsd`. The kit carries a copy in `specimen/reference-model/sdc4.xsd`,
+byte-identical to that URL and to `sdc4/schemas/sdc4.xsd` in
+[SemanticDataCharter/SDCRM](https://github.com/SemanticDataCharter/SDCRM) release v4.1.0 (Apache-2.0).
+`specimen/catalog.xml` is an OASIS XML Catalogs 1.1 file that maps the URL to the copy. `verify.sh` resolves through
+it and refuses to fetch any remote URL the catalog does not list, so a missing entry fails loudly instead of quietly
+reaching the network. Both files are in `MANIFEST.sha256`.
+
+The same pattern works for your own records: keep the data, its models, the reference model and a catalog file
+together, and validation runs on any machine with no call to the publisher.
 
 ## What a pass does and does not show
 

@@ -11,6 +11,8 @@ a7f9220151a8be330554ebd5b1f19318e23a9793b451d8c5448ef1797da62b41  ./5-refused-co
 4b0b166c0d8b47e738fd136c73d437c04f7b94592ea464367e38949782867c23  ./5-refused-contrast/issuer-response-DENY-bcwiqmil3bmwlgirxyrfuzt0.json
 3777926a6c7a03975e9a7491e82c79b404997f9a80932d81494dc5db34763e6d  ./5-refused-contrast/receipt-advice-KM-RA-2026-000005.gdr.xml
 45f148d7d64b496aa40f0091d75ccf7c413408e14a37848c6dd6abe0f80d374d  ./5-refused-contrast/settlement-receipt-DENY-bcwiqmil3bmwlgirxyrfuzt0.json
+c2abf33c8ede344fb96a0e329c4bad14f5de17d9f8e8d2ecc25732c1e68c89e1  ./catalog.xml
 f41b618892d6f918ec6812010635b476d21e31a02c8f66dadd8b6bb84efef1b8  ./keys/halvorsen-foods-vsl-key.json
 3ebe79f504c12c44f6dbabc98d654b5c43e14b7eeb1e1ad46a276f00728012ab  ./keys/kestrel-mercantile-vsl-key.json
 1dd9015c3e7b0fcd144c6e1e5cfe27a871cf9c929c1b30c6b7d694c04d991e3d  ./keys/sdcstudio-signing-keys.json
+0b828e51ef89142427e8659f498ccd409a77e452576d336a65bdb5e0cc495308  ./reference-model/sdc4.xsd
