@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OASIS XML Catalogs 1.1: resolve the SDC4 reference model to the local copy, so record validation needs no network.
+     reference-model/sdc4.xsd is byte-identical to https://semanticdatacharter.com/ns/sdc4/sdc4.xsd and to
+     sdc4/schemas/sdc4.xsd in SemanticDataCharter/SDCRM release v4.1.0 (Apache-2.0). -->
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="https://semanticdatacharter.com/ns/sdc4/sdc4.xsd" uri="reference-model/sdc4.xsd"/>
+  <system systemId="https://semanticdatacharter.com/ns/sdc4/sdc4.xsd" uri="reference-model/sdc4.xsd"/>
+</catalog>
